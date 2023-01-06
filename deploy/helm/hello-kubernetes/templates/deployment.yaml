@@ -6,7 +6,7 @@ metadata:
     {{- include "hello-kubernetes.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.deployment.replicaCount }}
-  revisionHistroyLimit: 3
+  revisionHistroyLimit : 3
   selector:
     matchLabels:
       {{- include "hello-kubernetes.selectorLabels" . | nindent 6 }}

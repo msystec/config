@@ -1,5 +1,5 @@
 # Provide a custom message
-message: "Msys Technologies Argo CI/CD cisco demo_v1"
+message: "Msys Technologies CI/CD Proposal for kubernetes deployment_v1"
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
   configured: false
@@ -9,7 +9,7 @@ service:
   type: LoadBalancer
   port: 80
 deployment:
-  replicaCount: 5
+  replicaCount: 2
   container:
     image:
       repository: "267767410086.dkr.ecr.us-east-1.amazonaws.com/jenkins_pipeline"

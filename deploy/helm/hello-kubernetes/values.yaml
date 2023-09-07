@@ -1,5 +1,5 @@
 # Provide a custom message
-message: "Msys Technologies CI/CD Proposal for kubernetes deployment_v1"
+message: "CI/CD Proposal for kubernetes deployment_v1"
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
   configured: false
